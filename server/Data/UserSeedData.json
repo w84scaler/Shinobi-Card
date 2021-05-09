@@ -1,0 +1,18 @@
+[
+    {
+        "UserName": "user1",
+        "Nickname": "user1name"
+    },
+    {
+        "UserName": "user2",
+        "Nickname": "user2name"
+    },
+    {
+        "UserName": "user3",
+        "Nickname": "user3name"
+    },
+    {
+        "UserName": "user4",
+        "Nickname": "user4name"
+    }
+]
