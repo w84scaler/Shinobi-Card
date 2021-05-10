@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace server.Migrations
+namespace server.Data.Migrations
 {
     public partial class init : Migration
     {
@@ -52,7 +52,7 @@ namespace server.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Card",
+                name: "Cards",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -60,12 +60,11 @@ namespace server.Migrations
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Genjutsu = table.Column<int>(type: "int", nullable: false),
                     Ninjutsu = table.Column<int>(type: "int", nullable: false),
-                    Taijutsu = table.Column<int>(type: "int", nullable: false),
-                    IconURL = table.Column<int>(type: "int", nullable: false)
+                    Taijutsu = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Card", x => x.Id);
+                    table.PrimaryKey("PK_Cards", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -175,6 +174,27 @@ namespace server.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Icons",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    URL = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    PublicId = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CardId = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Icons", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Icons_Cards_CardId",
+                        column: x => x.CardId,
+                        principalTable: "Cards",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "UserCard",
                 columns: table => new
                 {
@@ -191,9 +211,9 @@ namespace server.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_UserCard_Card_CardId",
+                        name: "FK_UserCard_Cards_CardId",
                         column: x => x.CardId,
-                        principalTable: "Card",
+                        principalTable: "Cards",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -238,6 +258,12 @@ namespace server.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Icons_CardId",
+                table: "Icons",
+                column: "CardId",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_UserCard_CardId",
                 table: "UserCard",
                 column: "CardId");
@@ -261,6 +287,9 @@ namespace server.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Icons");
+
+            migrationBuilder.DropTable(
                 name: "UserCard");
 
             migrationBuilder.DropTable(
@@ -270,7 +299,7 @@ namespace server.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Card");
+                name: "Cards");
         }
     }
 }

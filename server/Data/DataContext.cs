@@ -15,7 +15,8 @@ namespace server.Data
 
         }
 
-        public DbSet<Card> Card { get; set; }
+        public DbSet<Card> Cards { get; set; }
+        public DbSet<Icon> Icons { get; set; }
         
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -46,6 +47,12 @@ namespace server.Data
                 .IsRequired();
 
             builder.Entity<UserCard>().HasKey(k => new { k.UserId, k.CardId });
+
+            builder.Entity<Card>()
+                .HasOne(c => c.Icon)
+                .WithOne(i => i.Card)
+                .HasForeignKey<Icon>(i => i.CardId)
+                .IsRequired();
         }
     }
 }

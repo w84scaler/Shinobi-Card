@@ -1,0 +1,289 @@
+[
+  {
+    "name": "Akamaru & Kiba Inuzuka",
+    "ninjutsu": 62,
+    "taijutsu": 60,
+    "genjutsu": 15,
+	  "iconUrl": "" 
+  },
+  {
+    "name": "Asuma Sarutobi",
+    "ninjutsu": 78,
+    "taijutsu": 59,
+    "genjutsu": 35,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Chiyo",
+    "ninjutsu": 73,
+    "taijutsu": 48,
+    "genjutsu": 26,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Chōji Akimichi",
+    "ninjutsu": 64,
+    "taijutsu": 50,
+    "genjutsu": 10,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Deidara",
+    "ninjutsu": 86,
+    "taijutsu": 40,
+    "genjutsu": 50,
+  	"iconUrl": ""
+  },
+  {
+    "name": "Gaara",
+    "ninjutsu": 77,
+    "taijutsu": 40,
+    "genjutsu": 20,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Hashirama Senju",
+    "ninjutsu": 100,
+    "taijutsu": 78,
+    "genjutsu": 35,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Hidan",
+    "ninjutsu": 76,
+    "taijutsu": 59,
+    "genjutsu": 19,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Hinata Hyuga",
+    "ninjutsu": 60,
+    "taijutsu": 40,
+    "genjutsu": 43,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Hiruzen Sarutobi",
+    "ninjutsu": 100,
+    "taijutsu": 78,
+    "genjutsu": 50,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Ino Yamanaka",
+    "ninjutsu": 67,
+    "taijutsu": 48,
+    "genjutsu": 22,
+    "iconUrl": ""
+  },
+  {
+    "name": "Itachi Uchiha",
+    "ninjutsu": 83,
+    "taijutsu": 76,
+    "genjutsu": 93,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Jiraiya",
+    "ninjutsu": 90,
+    "taijutsu": 74,
+    "genjutsu": 30,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Kakashi Hatake",
+    "ninjutsu": 87,
+    "taijutsu": 66,
+    "genjutsu": 67,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Kakuzu",
+    "ninjutsu": 71,
+    "taijutsu": 65,
+    "genjutsu": 21,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Kankuro",
+    "ninjutsu": 72,
+    "taijutsu": 36,
+    "genjutsu": 15,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Killer B",
+    "ninjutsu": 45,
+    "taijutsu": 73,
+    "genjutsu": 20,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Kisame Hoshigaki",
+    "ninjutsu": 70,
+    "taijutsu": 78,
+    "genjutsu": 18,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Kurenai Yuhi",
+    "ninjutsu": 67,
+    "genjutsu": 58,
+    "taijutsu": 53,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Madara Uchiha",
+    "ninjutsu": 91,
+    "taijutsu": 93,
+    "genjutsu": 100,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Might Guy",
+    "ninjutsu": 15,
+    "taijutsu": 100,
+    "genjutsu": 19,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Minato Namikaze",
+    "ninjutsu": 81,
+    "taijutsu": 71,
+    "genjutsu": 30,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Naruto Uzumaki",
+    "ninjutsu": 80,
+    "taijutsu": 54,
+    "genjutsu": 24,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Obito Uchiha",
+    "ninjutsu": 72,
+    "taijutsu": 67,
+    "genjutsu": 85,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Orochimaru",
+    "ninjutsu": 91,
+    "taijutsu": 64,
+    "genjutsu": 50,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Rock Lee",
+    "ninjutsu": 15,
+    "taijutsu": 81,
+    "genjutsu": 8,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Sai",
+    "ninjutsu": 71,
+    "taijutsu": 56,
+    "genjutsu": 20,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Sakura Haruno",
+    "ninjutsu": 60,
+    "taijutsu": 54,
+    "genjutsu": 14,
+	  "iconUrl": ""
+  }, 
+  {
+    "name": "Sasori",
+    "ninjutsu": 83,
+    "taijutsu": 32,
+    "genjutsu": 23,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Sasuke Uchiha",
+    "ninjutsu": 75,
+    "taijutsu": 56,
+    "genjutsu": 77,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Shino Aburame",
+    "ninjutsu": 60,
+    "taijutsu": 43,
+    "genjutsu": 13,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Shikamaru Nara",
+    "ninjutsu": 68,
+    "taijutsu": 57,
+    "genjutsu": 15,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Temari",
+    "ninjutsu": 72,
+    "taijutsu": 42,
+    "genjutsu": 15,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Tenten",
+    "ninjutsu": 59,
+    "taijutsu": 56,
+    "genjutsu": 10,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Tobirama Senju",
+    "ninjutsu": 99,
+    "taijutsu": 83,
+    "genjutsu": 24,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Tsunade",
+    "ninjutsu": 93,
+    "taijutsu": 71,
+    "genjutsu": 24,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Yamato",
+    "ninjutsu": 75,
+    "taijutsu": 64,
+    "genjutsu": 25,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Zabuza Momochi",
+    "ninjutsu": 80,
+    "taijutsu": 70,
+    "genjutsu": 20,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Haku",
+    "ninjutsu": 68,
+    "taijutsu": 40,
+    "genjutsu": 10,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Shisui Uchiha",
+    "ninjutsu": 80,
+    "taijutsu": 71,
+    "genjutsu": 96,
+	  "iconUrl": ""
+  },
+  {
+    "name": "Shnobi Derevni Scritih Pominok",
+    "ninjutsu": 1,
+    "taijutsu": 1,
+    "genjutsu": 1,
+	  "iconUrl": ""
+  }
+]

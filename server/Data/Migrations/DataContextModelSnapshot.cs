@@ -3,17 +3,15 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using server.Data;
 
-namespace server.Migrations
+namespace server.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210509195211_init")]
-    partial class init
+    partial class DataContextModelSnapshot : ModelSnapshot
     {
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -117,9 +115,6 @@ namespace server.Migrations
                     b.Property<int>("Genjutsu")
                         .HasColumnType("int");
 
-                    b.Property<int>("IconURL")
-                        .HasColumnType("int");
-
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -131,7 +126,31 @@ namespace server.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Card");
+                    b.ToTable("Cards");
+                });
+
+            modelBuilder.Entity("server.Entities.Icon", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("CardId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PublicId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("URL")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CardId")
+                        .IsUnique();
+
+                    b.ToTable("Icons");
                 });
 
             modelBuilder.Entity("server.Entities.Role", b =>
@@ -305,6 +324,17 @@ namespace server.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("server.Entities.Icon", b =>
+                {
+                    b.HasOne("server.Entities.Card", "Card")
+                        .WithOne("Icon")
+                        .HasForeignKey("server.Entities.Icon", "CardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Card");
+                });
+
             modelBuilder.Entity("server.Entities.UserCard", b =>
                 {
                     b.HasOne("server.Entities.Card", "Card")
@@ -345,6 +375,8 @@ namespace server.Migrations
 
             modelBuilder.Entity("server.Entities.Card", b =>
                 {
+                    b.Navigation("Icon");
+
                     b.Navigation("UserCards");
                 });
 

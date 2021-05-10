@@ -53,14 +53,14 @@ namespace server.Controllers
             if(!roleResult.Succeeded)
                 return BadRequest();
 
-            return new UserDTO
+            return Ok(new UserDTO
             {
                 UserName = user.UserName,
                 Token = await _tokenService.CreateToken(user),
                 Banned = user.Banned,
                 WinCount = user.WinCount,
                 Nickname = user.Nickname
-            };
+            });
         }
 
         private async Task<bool> UserExists(string userName)
@@ -82,14 +82,14 @@ namespace server.Controllers
             if(!res.Succeeded)
                 return Unauthorized();
 
-            return new UserDTO
+            return Ok(new UserDTO
             {
                 UserName = user.UserName,
                 Token = await _tokenService.CreateToken(user),
                 Banned = user.Banned,
                 WinCount = user.WinCount,
                 Nickname = user.Nickname
-            };
+            });
         }
     }
 }
