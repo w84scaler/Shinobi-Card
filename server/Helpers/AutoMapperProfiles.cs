@@ -22,6 +22,8 @@ namespace server.Helpers
             //CreateMap<MemberUpdateDto,AppUser>();
 
             CreateMap<RegisterDTO, User>();
+            CreateMap<User, GamerDTO>();
+
             CreateMap<Card, CardDTO>();
             //CreateMap<CardDTO, Card>();
             CreateMap<AddCardDTO, Card>();

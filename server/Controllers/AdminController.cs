@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 using AutoMapper;
+using AutoMapper.QueryableExtensions;
 
 using server.DTOs;
 using server.Entities;
@@ -31,6 +32,15 @@ namespace server.Controllers
             _userManager = userManager;
         }
 
+        [Authorize(Policy = "RequireAdminRole")]
+        [HttpGet("gamer")]
+        public async Task<ActionResult<IEnumerable<GamerDTO>>> GetGamers()
+        {
+            var gamers = await _userManager.GetUsersInRoleAsync("Gamer");
+            return Ok(gamers.AsQueryable().ProjectTo<GamerDTO>(_mapper.ConfigurationProvider));
+        }
+
+        [Authorize(Policy = "RequireAdminRole")]
         [HttpPost("card/add")]
         public async Task<ActionResult> AddCard([FromForm] AddCardDTO cardInfo)
         {
