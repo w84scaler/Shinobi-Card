@@ -41,6 +41,16 @@ namespace server.Controllers
         }
 
         [Authorize(Policy = "RequireAdminRole")]
+        [HttpPut("gamer/ban/{GamerId}")]
+        public async Task<ActionResult> SwitchGamerBan(string GamerId)
+        {
+            var gamer = await _userManager.FindByIdAsync(GamerId);
+            gamer.Banned = !gamer.Banned;
+            await _userManager.UpdateAsync(gamer);
+            return Ok();
+        }
+
+        [Authorize(Policy = "RequireAdminRole")]
         [HttpPost("card/add")]
         public async Task<ActionResult> AddCard([FromForm] AddCardDTO cardInfo)
         {
