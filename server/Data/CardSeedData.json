@@ -4,327 +4,450 @@
     "Ninjutsu": 62,
     "Taijutsu": 60,
     "Genjutsu": 15,
-    "URL": "",
-	  "PublicId": "" 
+    "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Asuma Sarutobi",
     "Ninjutsu": 78,
     "Taijutsu": 59,
     "Genjutsu": 35,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Chiyo",
     "Ninjutsu": 73,
     "Taijutsu": 48,
     "Genjutsu": 26,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Chōji Akimichi",
     "Ninjutsu": 64,
     "Taijutsu": 50,
     "Genjutsu": 10,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Deidara",
     "Ninjutsu": 86,
     "Taijutsu": 40,
     "Genjutsu": 50,
-  	"URL": "",
-	  "PublicId": ""
+  	"Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Gaara",
     "Ninjutsu": 77,
     "Taijutsu": 40,
     "Genjutsu": 20,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Hashirama Senju",
     "Ninjutsu": 100,
     "Taijutsu": 78,
     "Genjutsu": 35,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Hidan",
     "Ninjutsu": 76,
     "Taijutsu": 59,
     "Genjutsu": 19,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Hinata Hyuga",
     "Ninjutsu": 60,
     "Taijutsu": 40,
     "Genjutsu": 43,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Hiruzen Sarutobi",
     "Ninjutsu": 100,
     "Taijutsu": 78,
     "Genjutsu": 50,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Ino Yamanaka",
     "Ninjutsu": 67,
     "Taijutsu": 48,
     "Genjutsu": 22,
-    "URL": "",
-	  "PublicId": ""
+    "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Itachi Uchiha",
     "Ninjutsu": 83,
     "Taijutsu": 76,
     "Genjutsu": 93,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Jiraiya",
     "Ninjutsu": 90,
     "Taijutsu": 74,
     "Genjutsu": 30,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Kakashi Hatake",
     "Ninjutsu": 87,
     "Taijutsu": 66,
     "Genjutsu": 67,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Kakuzu",
     "Ninjutsu": 71,
     "Taijutsu": 65,
     "Genjutsu": 21,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Kankuro",
     "Ninjutsu": 72,
     "Taijutsu": 36,
     "Genjutsu": 15,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Killer B",
     "Ninjutsu": 45,
     "Taijutsu": 73,
     "Genjutsu": 20,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Kisame Hoshigaki",
     "Ninjutsu": 70,
     "Taijutsu": 78,
     "Genjutsu": 18,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Kurenai Yuhi",
     "Ninjutsu": 67,
     "Genjutsu": 58,
     "Taijutsu": 53,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Madara Uchiha",
     "Ninjutsu": 91,
     "Taijutsu": 93,
     "Genjutsu": 100,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Might Guy",
     "Ninjutsu": 15,
     "Taijutsu": 100,
     "Genjutsu": 19,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Minato Namikaze",
     "Ninjutsu": 81,
     "Taijutsu": 71,
     "Genjutsu": 30,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Naruto Uzumaki",
     "Ninjutsu": 80,
     "Taijutsu": 54,
     "Genjutsu": 24,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Obito Uchiha",
     "Ninjutsu": 72,
     "Taijutsu": 67,
     "Genjutsu": 85,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Orochimaru",
     "Ninjutsu": 91,
     "Taijutsu": 64,
     "Genjutsu": 50,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Rock Lee",
     "Ninjutsu": 15,
     "Taijutsu": 81,
     "Genjutsu": 8,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Sai",
     "Ninjutsu": 71,
     "Taijutsu": 56,
     "Genjutsu": 20,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Sakura Haruno",
     "Ninjutsu": 60,
     "Taijutsu": 54,
     "Genjutsu": 14,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   }, 
   {
     "Name": "Sasori",
     "Ninjutsu": 83,
     "Taijutsu": 32,
     "Genjutsu": 23,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Sasuke Uchiha",
     "Ninjutsu": 75,
     "Taijutsu": 56,
     "Genjutsu": 77,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Shino Aburame",
     "Ninjutsu": 60,
     "Taijutsu": 43,
     "Genjutsu": 13,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Shikamaru Nara",
     "Ninjutsu": 68,
     "Taijutsu": 57,
     "Genjutsu": 15,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Temari",
     "Ninjutsu": 72,
     "Taijutsu": 42,
     "Genjutsu": 15,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Tenten",
     "Ninjutsu": 59,
     "Taijutsu": 56,
     "Genjutsu": 10,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Tobirama Senju",
     "Ninjutsu": 99,
     "Taijutsu": 83,
     "Genjutsu": 24,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Tsunade",
     "Ninjutsu": 93,
     "Taijutsu": 71,
     "Genjutsu": 24,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Yamato",
     "Ninjutsu": 75,
     "Taijutsu": 64,
     "Genjutsu": 25,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Zabuza Momochi",
     "Ninjutsu": 80,
     "Taijutsu": 70,
     "Genjutsu": 20,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Haku",
     "Ninjutsu": 68,
     "Taijutsu": 40,
     "Genjutsu": 10,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Shisui Uchiha",
     "Ninjutsu": 80,
     "Taijutsu": 71,
     "Genjutsu": 96,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   },
   {
     "Name": "Shnobi Derevni Scritih Pominok",
     "Ninjutsu": 1,
     "Taijutsu": 1,
     "Genjutsu": 1,
-	  "URL": "",
-	  "PublicId": ""
+	  "Icon":
+    {
+      "URL": "https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png",
+	    "PublicId": "fzih33aksqxuuatjcbsc" 
+    }
   }
 ]

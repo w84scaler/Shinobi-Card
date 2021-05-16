@@ -26,7 +26,8 @@ namespace server
                 var userManager = services.GetRequiredService<UserManager<User>>();
                 var roleManager = services.GetRequiredService<RoleManager<Role>>();
                 await context.Database.MigrateAsync();
-                await Seed.SeedUsers(userManager, roleManager);
+                await Seed.SeedСards(context);
+                await Seed.SeedUsers(userManager, roleManager, context);
             }
             catch(Exception e)
             {
