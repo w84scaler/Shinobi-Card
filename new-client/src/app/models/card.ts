@@ -1,8 +1,8 @@
 export interface Card {
-    Id: number;
-    Name: string;
-    Genjutsu: number;
-    Ninjutsu: number;
-    Taijutsu: number;
-    IconURL: string;
+    id: number;
+    name: string;
+    genjutsu: number;
+    ninjutsu: number;
+    taijutsu: number;
+    iconURL: string;
 }

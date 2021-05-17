@@ -16,9 +16,8 @@ export class AccountService {
 
   login(model:any){
     return this.http.post(this.apiUrl + 'account/login', model).pipe(
-      map((response: User) =>{
-        const user = response;
-        if(user){
+      map((user: User) =>{
+        if (user) {
           this.setCurrentUser(user);
           //this.presence.createHubConnection(user);
         }
@@ -29,7 +28,7 @@ export class AccountService {
   register(model: any){
     return this.http.post(this.apiUrl + "account/register", model).pipe(
       map( (user : User) => {
-        if(user){
+        if (user) {
           this.setCurrentUser(user);
           //this.presence.createHubConnection(user);
         }

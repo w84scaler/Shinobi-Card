@@ -14,6 +14,9 @@ import { RegisterComponent } from './components/modals/register/register.compone
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CollectionComponent } from './components/collection/collection.component';
 import { HomeComponent } from './components/home/home.component';
+import { GameComponent } from './components/game/game.component';
+import { MatCardContent } from '@angular/material/card';
+import { CardComponent } from './components/card/card.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { HomeComponent } from './components/home/home.component';
     LoginComponent,
     RegisterComponent,
     CollectionComponent,
-    HomeComponent
+    HomeComponent,
+    GameComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -33,6 +38,7 @@ import { HomeComponent } from './components/home/home.component';
     ModalModule.forRoot(),
     FormsModule,
     // ReactiveFormsModule
+    
   ],
   providers: [
     {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true}

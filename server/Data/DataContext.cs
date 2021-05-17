@@ -17,6 +17,7 @@ namespace server.Data
 
         public DbSet<Card> Cards { get; set; }
         public DbSet<Icon> Icons { get; set; }
+        public DbSet<UserCard> UserCards { get; set; }
         
         protected override void OnModelCreating(ModelBuilder builder)
         {

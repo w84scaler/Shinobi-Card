@@ -8,8 +8,10 @@ using System.Linq;
 using AutoMapper;
 
 using server.DTOs;
+using server.Extensions;
 using server.Entities;
 using server.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace server.Controllers
 {
@@ -30,6 +32,15 @@ namespace server.Controllers
         public async Task<ActionResult<IEnumerable<CardDTO>>> GetCards()
         {
             var cards = await _cardRepository.GetCardsAsync();
+            var cardsDTO = cards.Select(c => _mapper.Map<CardDTO>(c));
+            return Ok(cardsDTO);
+        }
+
+        [Authorize]
+        [HttpGet("user")]
+        public async Task<ActionResult<IEnumerable<CardDTO>>> GetUserCards()
+        {
+            var cards = await _cardRepository.GetUserCards(User.GetUserId());
             var cardsDTO = cards.Select(c => _mapper.Map<CardDTO>(c));
             return Ok(cardsDTO);
         }

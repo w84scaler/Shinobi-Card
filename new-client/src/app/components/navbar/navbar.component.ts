@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { BsDropdownConfig } from 'ngx-bootstrap/dropdown';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
 import { AccountService } from 'src/app/services/account.service';
 import { LoginComponent } from '../modals/login/login.component';
@@ -7,7 +8,8 @@ import { LoginComponent } from '../modals/login/login.component';
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  styleUrls: ['./navbar.component.css'],
+  providers: [{ provide: BsDropdownConfig, useValue: { isAnimated: true, autoClose: true } }]
 })
 export class NavbarComponent implements OnInit {
 

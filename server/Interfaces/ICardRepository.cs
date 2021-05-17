@@ -12,6 +12,7 @@ namespace server.Interfaces
     {
         Task<bool> Complete();
         Task<IEnumerable<Card>> GetCardsAsync();
+        Task<IEnumerable<Card>> GetUserCards(int userId);
         void AddCardAsync(Card card);
 
 

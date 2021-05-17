@@ -40,5 +40,15 @@ namespace server.Data
         {
             await _dataContext.Cards.AddAsync(card);
         }
+
+        public async Task<IEnumerable<Card>> GetUserCards(int userId)
+        {
+            return await _dataContext.UserCards
+                .Where(uc => uc.UserId == userId)
+                .Include(uc => uc.Card)
+                .ThenInclude(c => c.Icon)
+                .Select(uc => uc.Card)
+                .ToListAsync<Card>();
+        }
     }
 }
