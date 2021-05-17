@@ -15,8 +15,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CollectionComponent } from './components/collection/collection.component';
 import { HomeComponent } from './components/home/home.component';
 import { GameComponent } from './components/game/game.component';
-import { MatCardContent } from '@angular/material/card';
-import { CardComponent } from './components/card/card.component'
+import { CardComponent } from './components/card/card.component';
+import { RulesComponent } from './components/rules/rules.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +27,8 @@ import { CardComponent } from './components/card/card.component'
     CollectionComponent,
     HomeComponent,
     GameComponent,
-    CardComponent
+    CardComponent,
+    RulesComponent
   ],
   imports: [
     BrowserModule,

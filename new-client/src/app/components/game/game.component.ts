@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Card } from 'src/app/models/card';
+import { CardService } from 'src/app/services/card.service';
 
 @Component({
   selector: 'app-game',
@@ -7,9 +9,48 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GameComponent implements OnInit {
 
-  constructor() { }
+  cards: Card[] = [];
+  gamerCards: Card[] = [];
 
-  ngOnInit(): void {
+  emptyCard = {
+    id: 0,
+    name: 'Secret',
+    genjutsu: '?',
+    ninjutsu: '?',
+    taijutsu: '?',
+    iconURL: 'https://res.cloudinary.com/shinobi-card/image/upload/v1620775173/fzih33aksqxuuatjcbsc.png'
   }
 
+  randomCard: any = this.emptyCard;
+
+  
+
+  constructor(private cardService: CardService) { }
+
+  ngOnInit(): void {
+    this.loadGamerCards();
+    this.loadCards();
+  }
+
+  getRandomCard() {
+    let min = 0;
+    let max = this.cards.length - 1;
+    let rand = min + Math.random() * (max + 1 - min);
+    this.randomCard = this.cards[Math.floor(rand)];
+  }
+
+  loadGamerCards() {
+    this.cardService.getUserCards()
+      .subscribe((cards) => {
+        this.gamerCards = cards;
+        this.getRandomCard();
+      })
+  }
+
+  loadCards() {
+    this.cardService.getCards()
+      .subscribe((cards) => {
+        this.cards = cards;
+      })
+  }
 }
